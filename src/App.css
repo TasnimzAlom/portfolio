@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.App {
+  text-align: center;
+  height: 52rem;
+  width:70rem;
+  padding:5rem;
+  margin:3rem;
+  /* border: 2px solid black; */
+ 
+}
+
+.laptop{
+  /* border: 2px solid black; */
+  padding:2rem;
+  background-image: url("https://i.ibb.co/qm6YPfW/pngwing-com-18.png");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position: absolute;
+  height:100%;
+  
+}
+
+.stars{
+  height:26.6rem;
+  width:47rem;
+  position:relative;
+}
+
+.bg-pink{
+  height:26.5rem;
+  width:47rem;
+  margin: 3.3rem 0 0 9.5rem;
+  position:relative;
+ 
+}
+
+.text{
+  position:relative;
+  bottom:17rem;
+  text-align: center;
+  font-size: 2.2rem;
+  color:rgb(0, 0, 0);
+  font-weight:900;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+ h3{
+  color: black;
+}
+
+.bar{
+  margin:2.8rem 0 0 6.5rem ;
+  width:33.6rem;
+  height:2.5rem;
+  background-color: rgba(155, 155, 155, 0.452);
+  border-radius: .7rem;
+  box-shadow:rgba(0, 0, 0, 0.178)  1px -2px 6px 4px;
+  padding-top:.4rem;
+}
+
+.top-bar{
+  margin-top: -9.8rem;
+  margin-bottom:9.6rem;
+  position:relative;
+  width:47rem;
+  height:1.7rem;
+  background-color: rgba(255, 255, 255, 0.575);
+  border-bottom: solid rgb(88, 88, 88) 1px;
+  box-shadow: rgb(63, 61, 61) 3px 2px 15px;
+}
+
+.apple{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: rgb(45, 46, 46);
+  margin-top: -2rem;
+  height: 1.4rem;
+}
+
+ p{
+  color:black;
+  display:flex; 
+  font-size:13px;
+  margin: -1rem 3rem 0;
+  word-spacing: .3rem;
+}
+.time{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-left: 25rem;
+  margin-right: .5rem;
+  margin-top:-1rem;
+}
+
+.battery{
+  padding: .1rem .4rem .2rem .2rem;
+}
+
+
+.trash{
+  color:rgb(227, 241, 241);
+  padding-left:.7rem;  
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.trash:hover {
+  transform: scale(1.5);
+
+}
+
+.phone{
+  color: rgb(88, 202, 88);
+  padding-left:.7rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.phone:hover {
+  transform: scale(1.5);
+
+}
+
+.gear{
+  padding-left:.7rem;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gear:hover {
+  transform: scale(1.5);
+}
+
+.file{
+  padding-left:.7rem;
+  color:rgb(53, 177, 248);
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.file:hover {
+  transform: scale(1.5);
+
+}
+
+h5{
+  font-size:1rem;
+  padding:.3rem .5rem;
+  margin:.5rem 1.2rem;;
+  background-color: rgb(69, 74, 78);
+  border-radius:1rem;
+  width:6rem;
+  opacity: 0; 
+}
+
+.banners{
+  margin-top:-2rem;
+  margin-bottom:-4rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tab{
+opacity:0;
+height:0rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+  .App {
+    text-align: center;
+    height: 60rem;
+    width:50rem;
+    padding:0rem;
+    margin:0rem;
+    /* border: 2px solid black; */
+   
+  }
+
+  .laptop{
+    /* border: 2px solid black; */
+    padding:2rem;
+    background-image: url("https://i.ibb.co/cDKxXBc/pngwing-com-26.png");
+    background-repeat: no-repeat;
+    background-size: 90% ;
+    background-position: absolute;
+    height:56rem;  
+    margin-left:7rem;
+  }
+
+  .stars{
+    height:40rem;
+    width:30rem;
+    position:relative;
+    margin-right:65rem;
+    opacity: 0;
+  }
+
+  .tab{
+    height:32.9rem;
+    width: 24.8rem;
+    margin-right:26.3rem;
+    margin-left:-5rem;
+    margin-top:3.7rem;
+    opacity:100%;
+  }
+
+  .text{
+    
+    opacity:0;
+  }
+  /* .animate { transition: transform 0.3s ease-out; } */
+
+}

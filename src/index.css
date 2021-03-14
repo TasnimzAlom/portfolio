@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display:flex;
+  justify-content: center;
+  /* overflow:hidden; */
+  background: rgb(126,7,55);
+  background: linear-gradient(90deg, rgba(126,7,55,1) 0%, rgba(253,29,111,1) 50%, rgba(251,210,220,1) 100%);
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    background: rgb(25, 37, 41);
+  }
+
+ 
+}
